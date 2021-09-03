@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin:0;
+  list-style: none;
+}
+a{
+  text-decoration:none;
+  color:#000;
+}
+.center{
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.flex{
+  display: flex;
+}
+.pButton{
+  width: 120px;
+  background-color: #c14040;
+  text-align: center;
+}
+.pButton a{
+  color: #fff;
+  line-height: 50px;
+  font-size: 17.5px;
+}
+.title{
+  text-align: center;
+  
+}
+.title p{
+  font-size: 37.5px;
+  padding-bottom:12px;
+  line-height: 155px;
+  letter-spacing: 6px;
+}
+.title span{
+  display: block;
+  font-size: 26px;
+  position: relative;
+  top:-62.5px;
+}

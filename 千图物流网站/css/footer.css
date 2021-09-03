@@ -1,0 +1,32 @@
+footer{
+  margin-top: 120px;
+  width: 100%;
+  min-width: 1200px;
+  background-color: #375572;
+  color: #fff;
+}
+.footerTop{
+  justify-content: space-between;
+  padding-top: 55px;
+}
+.footerlist a{
+  color:#fff;
+}
+.footerlist dl{
+  padding-left: 87px; 
+}
+.footerlist dl dt{
+  font-size: 17px;
+  padding-bottom:6.25px;
+}
+.footerlist dl dd{
+  text-align: center;
+  font-size: 15px;
+  line-height: 50px;
+}
+.footerBottom{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  font-size: 14px;
+}

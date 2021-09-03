@@ -1,0 +1,75 @@
+
+header{
+  width: 100%;
+  background-color: #375572;
+  height: 690px;
+}
+.tabbar{
+  line-height: 90px;
+  height: 90px;
+  background-color: #375572;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+  
+}
+.tabbar .logo{
+  padding:14px 0px;
+}
+.tabbar .tabbarlist ul{
+  display: flex;
+}
+.tabbar .tabbarlist ul li{
+  padding:0px 12px;
+  margin:0px 6px;
+  font-size:20px;
+}
+.tabbar .tabbarlist ul li a {
+  color: #fff;
+}
+.tabbar .tabbarlist ul li:hover{
+  background-color: #c14040;
+}
+.headimg{
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  min-width: 1200px;
+  margin: 0 auto ;
+  position: relative;
+}
+.headimg img{
+  position: relative;
+  left:0px;
+  margin-top:-438px;
+  width: 1920px;
+  min-width: 1200px;
+}
+.headimg .imgtext{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-340px,-112px);
+  width: 680px;
+}
+.headimg .imgtext h1{
+  color:#fff;
+  font-size:85px;
+}
+.headimg .imgtext h2{
+  color:#fff;
+  font-size:32px;
+  text-align: center;
+}
+.headimg .imgtext::after{
+  content: "您身边的专业货物运输专家";
+  /* text-align: center;   */
+  background-color: #375572;
+  color:#fff;
+  font-size: 38px;
+  padding:12.5px;
+  position: relative;
+  top:62px;
+  left:110px;
+}

@@ -1,0 +1,21 @@
+/* 
+  自己加上的hover
+ */
+ .mainlist li:hover{
+  transform: translate(0px,-1px);
+  box-shadow:0px 4px 10px 0.5px #eee;
+   
+ }
+ .mainlist li:hover p,.spanone{
+  color:#375572;
+ }
+ .mainlist li:hover .spanone{
+  color:#375572;
+ }
+ .footerlist a:hover{
+   color:#c14040;
+ }
+ .photo ul li:hover{
+   z-index: 999;
+   transform: scale(1.3);
+ }
